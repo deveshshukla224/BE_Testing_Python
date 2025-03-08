@@ -1,0 +1,43 @@
+{
+    "company": {
+      "name": "Tech Solutions",
+      "location": {
+        "city": "Bangalore",
+        "country": "India"
+      },
+      "employees": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "position": "Software Engineer",
+          "skills": ["Java", "Spring Boot", "Microservices"],
+          "projects": [
+            {
+              "name": "E-commerce Platform",
+              "role": "Backend Developer",
+              "status": "In Progress"
+            },
+            {
+              "name": "Payment Gateway",
+              "role": "API Developer",
+              "status": "Completed"
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "position": "QA Engineer",
+          "skills": ["Selenium", "Appium", "Postman"],
+          "projects": [
+            {
+              "name": "Mobile Banking App",
+              "role": "Automation Tester",
+              "status": "In Progress"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

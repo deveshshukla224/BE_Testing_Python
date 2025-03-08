@@ -1,0 +1,44 @@
+{
+    "order_id": "ORD12345",
+    "customer": {
+      "id": 101,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1-555-987-6543",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "USA"
+      }
+    },
+    "items": [
+      {
+        "product_id": "P001",
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "price": 25.99,
+        "quantity": 2
+      },
+      {
+        "product_id": "P002",
+        "name": "Mechanical Keyboard",
+        "category": "Electronics",
+        "price": 89.99,
+        "quantity": 1
+      }
+    ],
+    "payment": {
+      "method": "Credit Card",
+      "transaction_id": "TXN789654",
+      "status": "Completed"
+    },
+    "order_status": "Shipped",
+    "delivery": {
+      "estimated_date": "2025-03-15",
+      "tracking_id": "TRACK123456",
+      "carrier": "FedEx"
+    }
+  }
+  
