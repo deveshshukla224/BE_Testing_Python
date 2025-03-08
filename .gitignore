@@ -1,0 +1,28 @@
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Ignore Node.js files
+node_modules/
+npm-debug.log
+
+# Ignore build/output directories
+build/
+dist/
+*.egg-info/
+
+# Ignore local environment files
+.env
+.env.local
