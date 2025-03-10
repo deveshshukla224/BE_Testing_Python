@@ -11,4 +11,3 @@ print(response.status_code)
 
 id_deepak = response.json()['id']
 print("ID of Deepak",id_deepak)
-
